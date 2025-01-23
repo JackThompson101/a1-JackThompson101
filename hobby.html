@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="hobby.html">Hobby</a>
+          <a href="https://www.wpi.edu" target="_blank">WPI</a>
+          <a href="https://www.nfl.com" target="_blank">Football</a>
+        </nav>
+        </header>
+
+    <main class="mainsection">
+        <h1>Football Hobby Survey</h1>
+        <p class="hobby">Playing football has been a hobby of mine for my whole life. 
+            I have been blessed to play at a high level and have made many friends through the sport.
+            I am interested in learning more about your football interests!
+        </p>
+        <section >
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="goals">How has football impacted your life?</label><br>
+                <textarea id="goals" name="goals" cols="27"></textarea><br><br>
+
+                <label>Favorite Football Types:</label><br>
+                <input type="checkbox" id="flag" name="football_type" value="Flag">
+                <label for="flag">Flag Football</label><br>
+                <input type="checkbox" id="touch" name="football_type" value="Touch">
+                <label for="touch">Touch Football</label><br>              
+                <input type="checkbox" id="tackle" name="football_type" value="Tackle">
+                <label for="tackle">Tackle Football</label><br><br>
+
+                <label>How long, if ever, have you played football?</label><br>
+                <input type="radio" id="never" name="experience" value="Never">
+                <label for="never">Never</label><br>
+                <input type="radio" id="less_than_year" name="experience" value="Less than a year">
+                <label for="less_than_year">Less than a year</label><br>
+                <input type="radio" id="one_to_three" name="experience" value="1-3 years">
+                <label for="one_to_three">1-3 years</label><br>
+                <input type="radio" id="more_than_three" name="experience" value="More than 3 years">
+                <label for="more_than_three">More than 3 years</label><br><br>
+                
+
+                <label for="highest-level">Highest Level of Football Played:</label><br>
+                <select id="highest-level" name="highest-level">
+                    <option value="none">None</option>
+                    <option value="youth">Youth</option>
+                    <option value="high-school">High School</option>
+                    <option value="college">College</option>
+                    <option value="professional">Professional</option>
+                </select><br><br>
+                
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+<footer>&copy Jack Thompson 2025</footer>
+</html>
