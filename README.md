@@ -1,6 +1,6 @@
 # CS 4241 - Webware
 
-Jack Thompson: https://sixth-foil-marten.glitch.me/index.html
+Jack Thompson: https://a1-jackthompson101.glitch.me/index.html
 
 This project shows a little bit about me and talks about my academic career. I also talk about one of my favorite hobbies which is football. Wether it is watching coaching or playing, I have always spent much of my free time involved in the sport.
 
